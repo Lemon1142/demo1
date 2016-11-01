@@ -1,0 +1,196 @@
+@charset "UTF-8";
+
+/*活动背景*/
+
+.champ-bg a{
+    width: 100%;
+    height: 644px;
+    background: url("../images/a-bg.jpg") top center;
+    position: absolute;
+}
+
+
+
+
+/*主体部分*/
+
+.inner .w{
+    height: 466px;
+    /*border: 1px solid red;*/
+
+}
+/*主体左边*/
+.inner .guanggao{
+    /*width: 730px;*/
+    /*height: 454px;*/
+    margin: 10px 0px 0 220px;
+    float: left;
+    position: relative;
+
+    /*border: 1px solid red;*/
+}
+
+.inner .guanggao .pg{
+    display: none;
+}
+
+.inner .guanggao .pg a{
+    width: 28px;
+    height: 62px;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, .3);
+    line-height: 62px;
+    text-align: center;
+    position: absolute;
+    top: 190px;
+    color: white;
+    font-size: 20px;
+}
+.inner .guanggao .pg a:hover{
+    background-color: rgba(0, 0, 0, .7);
+}
+.inner .guanggao .lpg a{
+    left:0;
+}
+.inner .guanggao .rpg a{
+    right: 0;
+}
+.inner .guanggao li{
+       float: left;
+       padding-right: 5px;
+}
+.inner .guanggao ul{
+          position: absolute;
+          bottom: 10px;
+          left: 288px;
+}
+.inner .guanggao .number a{
+    width: 18px;
+    height: 18px;
+    display: block;
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 9px;
+    text-align: center;
+    line-height: 18px;
+    color: white;
+}
+/*.focus .hd-pic img{*/
+    /*margin-bottom: 0;*/
+/*}*/
+
+
+
+
+
+
+.inner .w{
+    position: relative;
+}
+
+/*右边新闻*/
+.focus{
+    height: 452px;
+    /*border: 1px solid #e4e4e4;*/
+    margin-top: 10px;
+    float: right;
+    /*position: absolute;*/
+    /*right: 0;*/
+    /*top: 2px;*/
+}
+/*新闻头部*/
+.news{
+    border: 1px solid #e4e4e4;
+}
+.news .mt{
+    height: 32px;
+    line-height: 32px;
+    border-bottom: 1px dotted #e4e4e4;
+}
+.news .mt h2{
+    font-size: 16px;
+    color: #666666;
+    margin-left: 15px;
+    float: left;
+}
+.news .mt a{
+    float: right;
+    margin-right: 5px;
+}
+.news .mc ul{
+    margin-top: 8px;
+    margin-left: 10px;
+    padding-right: 30px;
+}
+.news .mc li{
+    height: 25px;
+}
+.news .mc b{
+    margin-right: 5px;
+}
+/*新闻中部*/
+.inner .focus .m-news{
+    height: 207px;
+    width: 250px;
+    overflow: hidden;
+    border: 1px solid #e4e4e4;
+    /*border-bottom: 0 none;*/
+    margin-top: -1px;
+}
+.focus .m-news ul{
+    width: 260px;
+}
+.focus .m-news li{
+    width: 62px;
+    height: 24px;
+    float: left;
+    border-bottom: 1px solid #e4e4e4;
+    border-right: 1px solid #e4e4e4;
+    text-align: center;
+    padding-top: 46px;
+    position: relative;
+}
+.focus .m-news li i{
+    width: 25px;
+    height: 25px;
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: 17px;
+    background: url("../images/news-bg.png") no-repeat;
+}
+/*.focus .m-news li .it2{*/
+    /*background: url("../images/news-bg.png") no-repeat 0 -25px;*/
+/*}*/
+
+/*新闻底部*/
+
+.hd-pic{
+margin-top:5px;
+}
+
+/*滚动图片*/
+.soilder{
+    height: 152px;
+    /*background-color: pink;*/
+    position: relative;
+    margin-top: 8px;
+}
+.soilder .l-solider{
+    width: 210px;
+    height: 152px;
+    background: url("../images/homebg.png") no-repeat -212px -136px;
+    float: left;
+}
+.soilder .r-solider{
+    width: 1000px;
+    height: 162px;
+    float: left;
+    overflow: hidden;
+}
+.soilder .r-solider ul{
+    width: 2000px;
+}
+.soilder .r-solider li{
+    float: left;
+    margin-right: 1px;
+}

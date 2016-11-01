@@ -1,0 +1,231 @@
+@charset "UTF-8";
+body,h1,h2,h3,h4,h5,h6,ul,dl,ol,dt,dd,li,p,div {
+    margin:  0;
+    padding:  0;
+    font-size: 12px;
+    font-family: 宋体;
+    color: #666;
+}
+
+a {
+    text-decoration: none;
+    color: #666;
+}
+a:hover {
+
+    color: #C81623;
+}
+
+.box {
+    width: 990px;
+    margin: 0 auto;
+}
+
+.clearfix:after{
+    content: " ";
+    height: 0;
+    line-height: 0;
+    clear: both;
+    display: block;
+    visibility: hidden;
+}
+.clearfix{
+    zoom: 1;
+}
+
+input,img {
+    margin:  0;
+    padding:  0;
+    border:  0 none;
+    outline-style: none;
+}
+
+
+
+/*logo部分开始*/
+.nav{
+    margin-top: 10px;
+}
+.nav a{
+    text-indent: -2000px;
+    width: 170px;
+    height: 60px;
+    display: inline-block;
+    float: left;
+    background: url("../images/logo.png") no-repeat;
+}
+.nav span{
+    width: 110px;
+    height: 40px;
+    display: inline-block;
+    float: left;
+    margin-top: 15px;
+    margin-left: 10px;
+    background: url("../images/l-icon.png") no-repeat;
+}
+/*<!--logo部分结束了-->*/
+/*<!--巨大banner部分开始-->*/
+.bigbanner {
+    height: 475px;
+    background-color: #3CBD58;
+    margin-top: 10px;
+}
+.bigbanner .box{
+    position: relative;
+}
+/*巨大banner部分结束了*/
+.login{
+    width: 347px;
+    height: 370px;
+    position: absolute;
+    top:40px;
+    right:0px;
+    background-color: white;
+}
+.login .top-login{
+    height: 54px;
+    border-bottom: 1px solid #F4F4F4;
+}
+.login .top-login a{
+    width: 166px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 54px;
+    text-align: center;
+    display: inline-block;
+}
+.login .top-login .sao{
+    /*float: left;*/
+}
+.login .top-login .zhang{
+    color: red;
+    /*float: right;*/
+}
+.login .top-login i{
+    width: 1px;
+    height: 20px;
+    display: inline-block;
+    background-color: #F4F4F4;
+    margin-top: 18px;
+}
+/*上边盒子结束*/
+/*提示盒子开始*/
+.login .tishi{
+    width: 304px;
+    height: 24px;
+    border: 1px solid #FFE57D;
+    background-color: #FFF6D2;
+    margin: 10px auto 0;
+    text-align: center;
+    line-height: 24px;
+    position: relative;
+}
+.login .tishi i{
+    width: 15px;
+    height: 18px;
+    display: inline-block;
+    background: url("../images/pwd-icons-new.png") no-repeat -102px -22px;
+    position: absolute;
+    top:3px;
+    left: 20px;
+}
+/*输入框部分*/
+.login .inport{
+    width: 304px;
+    height: 38px;
+    border: 1px solid #BDBDBD;
+    margin: 10px auto 20px;
+    position: relative;
+}
+.login .inport i{
+    width: 38px;
+    height: 38px;
+    display: inline-block;
+    float: left;
+}
+.login .inport .shuru{
+    background: url("../images/pwd-icons-new.png") no-repeat;
+}
+.login .inport .mima{
+    background: url("../images/pwd-icons-new.png") no-repeat -48px 0;
+}
+.login .inport input{
+    height: 38px;
+    width: 230px;
+    padding-left: 20px;
+    float: left;
+    color: #767676;
+}
+.login .inport span{
+    width: 14px;
+    height: 13px;
+    display: inline-block;
+    float: right;
+    cursor: pointer;
+    position: absolute;
+    top:15px;
+    right: 10px;
+    background: url("../images/pwd-icons-new.png") no-repeat -103px 0;
+}
+/*单选框部分*/
+.login .check{
+    margin-left: 20px;
+}
+.login .check input{
+    vertical-align: middle;
+}
+.login  .check a{
+    float: right;
+    margin-right: 20px;
+}
+/*登录按钮部分*/
+.login .but{
+    width: 304px;
+    height: 35px;
+    display: inline-block;
+    background-color: #E4393C;
+    margin-left: 20px;
+    margin-top: 18px;
+    line-height: 35px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 28px;
+}
+/*底部立即注册部分*/
+.login .liji{
+    height: 54px;
+    border-top: 1px solid #F4F4F4;
+    background-color: #FCFCFC;
+    line-height: 54px;
+    position: relative;
+}
+.login .liji p{
+    margin-left: 35px;
+    float: left;
+}
+.login .liji .pp a{
+    padding: 0 13px;
+}
+.login .liji .ppp{
+    margin-left: 50px;
+
+}
+.login .liji .ppp i{
+    width: 16px;
+    height: 18px;
+    display: inline-block;
+    background: url("../images/pwd-icons-new.png") no-repeat -104px -75px;
+    position: absolute;
+    left: 240px;
+    top:20px;
+}
+/* 结尾部分开始 */
+.footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer p {
+    margin-top: 10px;
+}

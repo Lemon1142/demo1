@@ -1,0 +1,437 @@
+@charset "UTF-8";
+
+/*css初始化*/
+body,p,div,h1,h2,h3,h4,h5,h6,ul,li,ol,dd,dt {
+    font-size: 12px;
+    font-family: 宋体;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: #333333;
+}
+i,s{
+    text-decoration: none;
+    font-style: normal;
+}
+input,img {
+    margin: 0;
+    padding: 0;
+    border: 0 none;
+    outline-style: none;
+}
+.clearfix:after {
+    content: " ";
+    height: 0;
+    line-height: 0;
+    display: block;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix{
+    zoom: 1;
+}
+
+a {
+    text-decoration: none;
+    color: #333333;
+    /*font-size: 13px;*/
+}
+a:hover {
+    color: red;
+}
+.w{
+    width: 1210px;
+    margin: 0 auto;
+    /*background-color: pink;*/
+}
+/*头部导航*/
+.header{
+    height: 30px;
+    background-color: #f1f1f1;
+}
+.header .l-dt{
+    float: left;
+}
+.header .l-dt li{
+
+    line-height: 30px;
+    padding: 0 25px 0 10px;
+    position: relative;
+}
+
+.header i{
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    position: absolute;
+    top: 13px;
+    right: 4px;
+    overflow: hidden;
+
+}
+.header s{
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    position: absolute;
+    top: -15px;
+}
+.header .r-nav{
+    float: right;
+}
+.header .r-nav li{
+    float: left;
+    line-height: 30px;
+    padding: 0 10px;
+    /*padding: 0 25px 0 10px;*/
+    position: relative;
+}
+.header .r-nav .space{
+    width: 1px;
+    height: 12px;
+    background-color: #ddd;
+    margin-top: 10px;
+    padding-left: 0;
+    padding-right: 0;
+}
+.header .r-nav .o1{
+    padding: 0 25px 0 10px;
+}
+.header .r-nav .phone{
+    padding: 0 25px;
+}
+.header .r-nav .phone:hover{
+    background-color: white;
+}
+.header .r-nav span{
+    width: 14px;
+    height: 19px;
+    display: inline-block;
+    background: url("../images/jd2015img.png") no-repeat;
+    position: absolute;
+    top: 6px;
+    left: 4px;
+}
+.header .r-nav .phone:hover span{
+    background-position: 0 -25px;
+}
+
+
+/*logo开始*/
+
+.logo{
+    /*height: 80px;*/
+    background-color:#1A329C;
+}
+.logo .w{
+    position: relative;
+}
+.logo img{
+    vertical-align: bottom;
+}
+.logo .w span{
+    width: 19px;
+    height: 19px;
+    display: inline-block;
+    background: url("../images/close.png") no-repeat;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.logo .w span:hover{
+    background-position: 0 -19px;
+    cursor: pointer;
+}
+/*广告*/
+.banner{
+    /*height: 145px;*/
+
+}
+.banner .tupian{
+    width: 363px;
+    height: 98px;
+    float: left;
+    margin-top: 21px;
+    cursor: pointer;
+}
+.banner .tupian a{
+    display: inline-block;
+    text-indent: -2000px;
+}
+.banner .m-banner{
+    width: 540px;
+    height: 35px;
+    float: left;
+    /*margin-left: 94px;*/
+    margin-top: 26px;
+    /*background-color: #666666;*/
+}
+.m-banner .left input{
+    display: inline-block;
+    height: 34px;
+    width: 450px;
+    border:1px solid darkred;
+    border-right: 0 none;
+    float: left;
+    color: #666666;
+    padding-left: 4px;
+}
+.m-banner .right input{
+    display: inline-block;
+    height: 36px;
+    width: 81px;
+    background-color: darkred;
+    float: left;
+    margin-left: 0;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+.r-banner .left{
+    display: inline-block;
+    width: 140px;
+    height: 36px;
+    line-height: 36px;
+    border: 1px solid #dddddd;
+    background-color: #f1f1f1;
+    float: right;
+    margin-top: 26px;
+    position: relative;
+}
+.r-banner .left1{
+    width: 18px;
+    height: 15px;
+    background: url("../images/jd2015img.png") no-repeat 0 -58px;
+    position: absolute;
+    top: 10px;
+    left: 17px;
+}
+.r-banner .left a{
+    margin-left: 44px;
+    margin-right: 15px;
+}
+.r-banner .left span{
+    display: inline-block;
+    width: 18px;
+    height: 16px;
+    line-height: 16px;
+    text-align: center;
+    background-color: darkred;
+    position: absolute;
+    top: -9px;
+    right: 20px;
+    color: white;
+    border-radius: 7px 7px 7px 0;
+}
+.hotwords ul{
+    float: left;
+}
+.hotwords li{
+    float: left;
+    padding-right: 10px;
+    margin-top: 8px;
+}
+.hotwords li a{
+    color: #666666;
+}
+/*中间导航开始*/
+.nav-list{
+    /*width: 210px;*/
+    height: 44px;
+    border-bottom: 2px solid darkred;
+    /*background-color: pink;*/
+}
+.nav-list .w{
+    position: relative;
+}
+.nav-list .top-title{
+    width: 210px;
+    height: 44px;
+    background-color: darkred;
+    float: left;
+    position: relative;
+    z-index: 1;
+    /*overflow: hidden;*/
+}
+/*.nav-list .top-title:hover{*/
+    /*overflow: visible;*/
+/*}*/
+.nav-list .top-title .top{
+    width: 200px;
+    height: 44px;
+    line-height: 44px;
+    padding-left: 10px;
+}
+.nav-list .top a{
+    color: white;
+    font-size: 14px;
+    font-family: 微软雅黑;
+}
+.nav-list .top-title ul{
+    width: 210px;
+    /*height: 466px;*/
+    background-color: #C81623;
+    margin-top: 2px;
+}
+.nav-list .top-title li{
+    line-height: 31px;
+    padding-left: 10px;
+
+}
+.nav-list .top-title li a{
+    color: #f1f1f1;
+}
+.nav-list .top-title li:hover{
+    background-color: white;
+}
+.nav-list .top-title li:hover a{
+    color: #C81623;
+}
+.nav-list .mnav-list ul{
+    float: left;
+
+}
+.nav-list .mnav-list li{
+    float: left;
+    line-height: 44px;
+}
+.nav-list .mnav-list a{
+    font-size: 16px;
+    padding: 0 20px;
+    font-family: 微软雅黑;
+}
+.nav-list .mnav-list li:hover a{
+   color: #C81623;
+}
+.nav-list .champ{
+    position: absolute;
+    right: 0;
+    top: -14px;
+}
+
+
+
+
+/*结尾部分*/
+.foot{
+    height: 97px;
+    background-color: #F5F5F5;
+    /*margin-top: 500px;*/
+}
+.foot .w span{
+   line-height: 97px;
+    font-size: 16px;
+    /*width: 302px;*/
+    margin-right: 120px;
+    position: relative;
+}
+.foot .w span b{
+    color: #C81623;
+    font-size: 20px;
+}
+.foot .w i{
+    width: 220px;
+    height: 54px;
+    display: inline-block;
+    position: absolute;
+    top: -18px;
+}
+/*.foot .w .item{*/
+    /*width: 302px;*/
+/*}*/
+.foot .w .item1{
+    /*height: 54px;*/
+    /*width: 220px;*/
+    background: url("../1/service_items_1.png") no-repeat;
+}
+.foot .w .item2{
+    background: url("../1/service_items_2.png") no-repeat;
+}
+.foot .w .item3{
+    background: url("../1/service_items_3.png") no-repeat;
+}
+.foot .w .item4{
+    background: url("../1/service_items_4.png") no-repeat;
+}
+
+
+
+
+
+/*结束*/
+.last{
+    height: 396px;
+}
+.last .w{
+    height: 201px;
+    border-bottom: 1px solid #E5E5E5;
+    /*padding: 0 20px;*/
+}
+.last  dl{
+    float: left;
+    /*margin-left: 30px;*/
+    margin-right: 140px;
+    padding-top: 15px;
+    /*line-height: 25px;*/
+}
+.top-last dt{
+    height: 30px;
+
+}
+.top-last dt h4{
+    font-size: 16px;
+    color: #666666;
+}
+.top-last dd{
+    height: 20px;
+}
+.top-last .right{
+    float: right;
+    margin-top: 20px;
+    margin-right: 44px;
+}
+.right .tupian{
+    width: 204px;
+    height: 172px;
+    background: url("../1/coverage.png") no-repeat 0 -128px;
+}
+.right .tupian h4{
+    font-size: 18px;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+.right .tupian .o3{
+    letter-spacing: 1px;
+    line-height: 18px;
+    font-size: 13px;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+.right .tupian a{
+     float: right;
+     padding-top: 10px;
+}
+.right p{
+    padding-top: 25px;
+}
+.bottom p{
+     text-align: center;
+    /*line-height: 25px;*/
+    margin-top: 15px;
+}
+.bottom .o1{
+    /*padding-left: 100px;*/
+    letter-spacing: 3px;
+}
+.bottom .o2{
+    background: url("../1/gh.png") no-repeat 270px 0;
+    /*margin-left: 200px;*/
+}
+.picter{
+    margin: 20px 320px 30px 320px;
+    /*padding-right: 30px;*/
+}
+.picter img{
+    padding-right: 10px;
+}
